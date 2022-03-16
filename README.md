@@ -7,7 +7,6 @@ A language learning test app.
 - react
 - react-native
 - react-native-firebase
-- react native
 - react-navigation
 - react-native-gesture-handler
 - react-native-safe-area-contex
