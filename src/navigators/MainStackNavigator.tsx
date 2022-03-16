@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { MainStackParamList } from './navigation/navigationParamList';
-import { HomeScreen } from '../screens';
+import { ExerciseScreen } from '../screens';
 
 const Stack = createStackNavigator<MainStackParamList>();
 
@@ -11,13 +11,13 @@ export default function MainStackNavigator() {
       screenOptions={{
         headerBackTitleVisible: false,
       }}
-      initialRouteName="Home">
+      initialRouteName="Exercise">
       <Stack.Screen
         options={{
           headerShown: false,
         }}
-        name="Home"
-        component={HomeScreen}
+        name="Exercise"
+        component={ExerciseScreen}
       />
     </Stack.Navigator>
   );

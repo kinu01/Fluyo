@@ -801,7 +801,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@expo/config-plugins@^4.0.18":
+"@expo/config-plugins@^4.0.12":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.1.0.tgz#0365e2e51e2e3e3b4e7db1fbbada5be661798be6"
   integrity sha512-+Uq7kzi1StUZZZivnnqNV6+v8b+SMF6MDgH+cEZxCoM9uwLXOK0rTAURzBGtl+C6EEbKnoZmnKGuzABBGPRP7A==
@@ -1282,19 +1282,19 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react-native-firebase/app@^14.5.1":
-  version "14.5.1"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-14.5.1.tgz#48acd6a497fd5a71c1a602c944ab788a0c5df706"
-  integrity sha512-PmoiKU3DBnuaMZ5Nw71qCmDbJMJQJoYknm5gTI+j09iF0PDzzF0t+Qe/lCWEKMrDs6TuYpJvxFoocSFlAF6BHg==
+"@react-native-firebase/app@^13.1.1":
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-13.1.1.tgz#cbf1a507718c545409cbf09b14516c1a1b55a490"
+  integrity sha512-Hb4At6vdOL2N6EisCHyy7dKF9BhCDBPt5wBuxFWDwtvf4gAA3DPCosmqjg0U2C++02NqrH3VZ1fJCrBDIhXTbg==
   dependencies:
-    "@expo/config-plugins" "^4.0.18"
+    "@expo/config-plugins" "^4.0.12"
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
-"@react-native-firebase/firestore@^14.5.1":
-  version "14.5.1"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-14.5.1.tgz#47e11c328e40493fa618fad67449f2913d50acb6"
-  integrity sha512-7DYFLA3XYxKGkkKxBaEKGKV/p6lsC6ODOwChCAN6ILHKK3gUlSxIPRkr4AKgFjedqzYWZLceMSH6AgOjeSOSyA==
+"@react-native-firebase/firestore@^13.1.1":
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-13.1.1.tgz#9baa3810949813f15f9b30d10b4e9931f0b9a037"
+  integrity sha512-dfxJLLE+SGuIiX7AL6aRgqQGmXXKA48ms/ln5DdN6q89x7NE4zZWlclE4cNLKePRiorrFwb8KT8nJRWcu1prNw==
 
 "@react-native/assets@1.0.0":
   version "1.0.0"

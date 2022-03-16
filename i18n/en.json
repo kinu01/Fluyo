@@ -1,10 +1,15 @@
 {
-  "Continue": "Continue",
-  "Check_answer": "Check_answer",
-  "Great_job_": "Great_job!",
+  "CONTINUE": "CONTINUE",
+  "CHECK_ANSWER": "CHECK ANSWER",
+  "Great_job_": "Great job!",
   "Answer_": "Answer:",
-  "Fill_in_the_missing_word": "Fill_in_the_missing_word",
+  "Fill_in_the_missing_word": "Fill in the missing word",
   "Something_went_wrong": "Something went wrong",
   "An_unknwon_error_occrred_please_try_again_later": "An unknwon error occrred, please try again later.",
-  "Could_not_load_exercise": "Could_not_load_exercise"
+  "Could_not_load_exercise": "Could_not_load_exercise",
+  "Please_select_a_word_to_continue": "Please select a word to continue",
+  "Exercise_Complete": "Exercise Complete",
+  "Do_you_want_to_restart_exercise": "Do you want to restart exercise",
+  "Yes": "Yes",
+  "No": "No"
 }

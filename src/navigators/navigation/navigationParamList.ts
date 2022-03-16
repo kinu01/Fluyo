@@ -1,5 +1,5 @@
 export type MainStackParamList = {
-  Home: undefined;
+  Exercise: undefined;
 };
 
 export type RootStackParamList = MainStackParamList;

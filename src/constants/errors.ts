@@ -14,9 +14,16 @@ const failed_to_load_exercise: ToastOption = {
   text1: localizeString('Could_not_load_exercise'),
 };
 
+const Please_select_a_word: ToastOption = {
+  type: 'error',
+  position: 'bottom',
+  text1: localizeString('Please_select_a_word_to_continue'),
+};
+
 export default {
   unknown,
   failed_to_load_exercise,
+  Please_select_a_word,
   custom: (
     text1?: string,
     text2?: string,
