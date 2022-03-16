@@ -6,8 +6,6 @@ import errors from '../constants/errors';
 import { exercisesRef } from '../services';
 import { Exercise } from '../types/exerciseTypes';
 
-export type Result = 'correct' | 'wrong';
-
 const useExercise = () => {
   const [exercises, setExercises] = useState<Exercise[]>([]);
   const [currentExercise, setCurrentExercise] = useState<Exercise>();

@@ -1,6 +1,6 @@
 import { localizeString } from 'i18n';
 import React, { FC, useMemo } from 'react';
-import { ActivityIndicator } from 'react-native';
+import { ActivityIndicator, StyleProp, TextStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Button } from '../../components';
 import { ExerciseScreenProps } from '../../navigators/navigation/navigationScreenProps';
@@ -10,7 +10,7 @@ import ResultWrapper from './components/ResultWrapper/ResultWrapper';
 import TranslationSentence from './components/TranslationSentence/TranslationSentence';
 import WordSuggestions from './components/WordSuggestions/WordSuggestions';
 import styles from './styles';
-import useExerciseResult from '../../hooks/useExerciseResult';
+import useExerciseResult, { Result } from '../../hooks/useExerciseResult';
 
 const ExerciseScreen: FC<ExerciseScreenProps> = () => {
   const {
@@ -35,6 +35,13 @@ const ExerciseScreen: FC<ExerciseScreenProps> = () => {
     return <ActivityIndicator style={styles.activityContainer} />;
   }
 
+  const resultButtonTitleStyle: {
+    [key in Result]: StyleProp<TextStyle>;
+  } = {
+    correct: styles.correctButtonTitle,
+    wrong: styles.wrongButtonTitle,
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <Description>{localizeString('Fill_in_the_missing_word')}</Description>
@@ -52,9 +59,8 @@ const ExerciseScreen: FC<ExerciseScreenProps> = () => {
         <Button
           containerStyle={!selectedWord && styles.continueButtonContainer}
           titleStyle={[
-            !selectedWord && styles.continueButtonLabel,
-            result === 'correct' && styles.correctButtonLabel,
-            result === 'wrong' && styles.wrongButtonLabel,
+            !selectedWord && styles.continueButtonTitle,
+            !!result && resultButtonTitleStyle[result],
           ]}
           buttonType={selectedWord && !result ? 'primary_variant' : undefined}
           onPress={onContinue}>

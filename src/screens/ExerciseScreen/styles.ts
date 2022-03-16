@@ -15,13 +15,13 @@ const styles = StyleSheet.create({
   continueButtonContainer: {
     backgroundColor: COLORS.primaryVariantColor,
   },
-  continueButtonLabel: {
+  continueButtonTitle: {
     color: COLORS.white,
   },
-  correctButtonLabel: {
+  correctButtonTitle: {
     color: COLORS.successColor,
   },
-  wrongButtonLabel: {
+  wrongButtonTitle: {
     color: COLORS.errorColor,
   },
 });
