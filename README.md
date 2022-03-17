@@ -1,6 +1,6 @@
-# FluyoTest
+# Fluyo
 
-A language learning test app.
+A simple language learning app with 5 static exercise.
 
 **Tech stack**
 
