@@ -1,6 +1,6 @@
 # Fluyo
 
-A simple language learning app with 5 static exercise.
+A simple language learning app with 5 static exercises.
 
 **Tech stack**
 
